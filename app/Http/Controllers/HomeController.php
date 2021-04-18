@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index($nome = null){
-        return "Hi from home Controller name is ".$nome;
+        return "Hi from home Controller name is name".$nome;
     }
 }
